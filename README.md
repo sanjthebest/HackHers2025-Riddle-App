@@ -1,1 +1,1 @@
-# HackHers2025-Train-Game
+# HackHers2025-Riddle-Game
