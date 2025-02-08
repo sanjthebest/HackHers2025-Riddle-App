@@ -1,1 +1,1 @@
-# HackHers2025-Riddle-Game
+# HackHers2025-Riddle-App
