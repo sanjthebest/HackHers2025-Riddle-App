@@ -1,7 +1,7 @@
 const riddles = [
     { question: "I live under a bridge and demand a toll. What am I?", answer: "Troll", hint: "classic creature that tests you" },
     { question: "I turn pumpkins into carriages and rags into gowns. Who am I?", answer: "Fairy Godmother", hint: "Seen in Cinderella" },
-    { question: "A circle of mushrooms is my dance floor. What am I? ", answer: "Fairy", hint: "Has wings and its small" },
+    { question: "A circle of mushrooms is my dance floor. What am I?", answer: "Fairy", hint: "Has wings and its small" },
     { question: "I brew potions and cast spells with my wand. What am I?", answer: "Witch", hint: "I also have a broomstick" },
 
     // Add more riddles for other levels
@@ -56,6 +56,9 @@ function nextLevel() {
     } else {
         alert("You must answer the current riddle correctly before proceeding to the next level.");
     }
+}
+function goToWorld2(){
+    window.location.href = 'worlds.html'; // Redirect to the worlds page
 }
 
 function goBack() {

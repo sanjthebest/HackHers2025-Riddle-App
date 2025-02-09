@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 4 - Curse of Ms.Riddler</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Level 4</h1>
+        <div class="riddle">
+            <p id="riddle-text">I brew potions and cast spells with my wand. What am I?</p>
+            <input type="text" id="answer" placeholder="Type your answer here">
+            <button id="check">Check Answer</button>
+            <button id="hint" onclick="showHint()">Hint</button>
+            <p class="message hidden"></p>
+            <p class="revealed-message hidden"></p>
+        </div>
+        <button id="next-level" class="hidden" onclick="goToWorld2()">Go to World 2</button>
+        <button onclick="goBack()">Back to Worlds</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
