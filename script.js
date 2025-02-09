@@ -57,8 +57,14 @@ function nextLevel() {
         alert("You must answer the current riddle correctly before proceeding to the next level.");
     }
 }
-function goToWorld2(){
-    window.location.href = 'worlds.html'; // Redirect to the worlds page
+
+function goToWorld2() {
+    // Check if the current world is complete before allowing access to the next world
+    if (currentRiddleIndex >= riddles.length) {
+        window.location.href = 'world2.html'; // Redirect to World 2
+    } else {
+        alert("You must complete all riddles in the current world before accessing World 2.");
+    }
 }
 
 function goBack() {
