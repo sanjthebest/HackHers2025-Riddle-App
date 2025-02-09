@@ -16,3 +16,10 @@ Open terminal and enter the following commands:
 Open another terminal and enter the following commands:
 1. cd  /Users/ar/Documents/Projects/Hackhers25 (this was my project path)
 2. npx react-native run-ios
+
+RUNDOWN OF THE FILES:
+1. App.js is used to integrate the Home Page, Levels, and Map together
+2. Map.js is the map when you first enter the app
+3. Level.js are the individual levels from the game
+4. Home.js is just the home page
+Most of the bugs are most likely in Level.js and Home.js so they need to be debugged hehe
