@@ -39,4 +39,4 @@ File Descriptions:
 
 Next Steps:
 1. Web App: Add more worlds and levels in
-2. Mobile App: Introduce a better Front end and UI
+2. Mobile App: Improve Front End/UI
