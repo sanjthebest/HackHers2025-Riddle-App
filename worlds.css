@@ -1,0 +1,72 @@
+/* General page styling */
+body {
+    background-color: pink;
+    /*background: url('your-fantasy-background.jpg') no-repeat center center/cover;*/
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 4em;
+}
+
+/* World selection container */
+.world-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Individual world buttons */
+.world-box {
+    background-image: linear-gradient(to right, aqua,white);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.world-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.9);
+}
+
+/* World images */
+.world img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+.world:hover img {
+    opacity: 0.8;
+}
+
+/* Home button styling */
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #4b0082, #8a2be2);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.7);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #8a2be2, #4b0082);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 1);
+    transform: scale(1.1);
+}
