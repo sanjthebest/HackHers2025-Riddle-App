@@ -74,3 +74,8 @@ body {
 .level:hover {
     background-color: #ffffff;
 }
+
+.completed {
+    background-color: green; /* Change background color to indicate completion */
+    color: white; /* Change text color for better visibility */
+}
