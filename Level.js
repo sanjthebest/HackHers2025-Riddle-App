@@ -31,10 +31,10 @@ const Level = ({ route, navigation }) => {
       { riddle: "By day, I rest, my duty stays, but when the call comes, I ride away. With sword in hand and heart so bright, who am I?", answer: "knight", hint: "A warrior in shining armor" }
     ],
     4: [
-      { riddle: "A warrior's seat, both swift and bold, across the land, our bond is gold. What am I?", answer: "steed", hint: "A knight's trusted horse" },
-      { riddle: "I drink no water, yet I shine; I face my foe in a single line. What am I?", answer: "sword", hint: "A knight's weapon" },
-      { riddle: "I hold a crest, yet not a bird, I stop the blade without a word. What am I?", answer: "shield", hint: "Protects a knight from attacks" },
-      { riddle: "A home of stone, with towers high, a noble heart can’t tell a lie. What am I?", answer: "castle", hint: "A king or queen's home" }
+      { riddle: "A warrior's seat, both swift and bold, across the land, our bond is gold. What am I?", answer: "steed", hint: "Swift and loyal, I bear my knight, across the land, through day and night." },
+      { riddle: "I drink no water, yet I shine; I face my foe in a single line. What am I?", answer: "sword", hint: "Forged in fire, sharp and true, in battle, I will cut right through." },
+      { riddle: "I hold a crest, yet not a bird, I stop the blade without a word. What am I?", answer: "shield", hint: "I block the blow, protect the knight, I'm held in battle, through day and night. " },
+      { riddle: "A home of stone, with towers high, a noble heart can’t tell a lie. What am I?", answer: "castle", hint: "I stand tall with walls so wide, where kings and queens may often hide. " }
     ]
   };
 
