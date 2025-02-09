@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body{
+    background-image: linear-gradient(rgb(247, 222, 226), rgb(247, 222, 226), rgb(253, 172, 186));
+}
+
+.navbar {
+    background: #141f22;
+    height: 35px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center; 
+    color: #e8e9c4; 
+    font-size: 20px; 
+    /*padding-left: 660px;*/
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none; /* This removes the underline */
+}
+
+/* Hero section */
+.hero {
+    margin: 0;
+    padding: 0.5rem;
+    height: 100vh;
+    background-image: url('hero-page.gif');
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes the GIF cover the entire background */
+    background-position: center;
+    background-attachment: scroll; /* This makes the background stay in place when you scroll */
+}
+
+.worlds {
+    padding: 6rem calc((100vw - 1100px) / 2);
+    text-align: center;
+    font-family: cursive;
+}
+
+.worlds h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+    font-weight: bold;
+}
+
+.world_desc {
+    margin-bottom: 3rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    padding: 1rem;
+    font-family: cursive;
+}
+
+.world_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.world_card {
+    padding: 2rem;
+    min-height: 450px;
+    width: 325px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0px 0px 20px;
+    background-position: center;
+}
+
+#world_card_1{
+    background-image: url("enchanted-forest.jpg");
+}
+
+#world_card_2{
+    background-image: url("cursed-cauldron.jpg");
+}
+
+#world_card_3{
+    background-image: url("moonlight-cave.jpg");
+}
+
+#world_card_4{
+    background-image: url("haunted-castle.jpg");
+}
+
+.world_title{
+    font-family: fantasy;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+}
+
+.world_btn{
+    background-image:linear-gradient(rgb(195, 248, 195),rgb(114, 198, 114));
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.world_btn:hover{
+    transform: scale(1.15); /* Slightly smaller increase for a smoother effect */
+    box-shadow: 0 0 25px rgba(234, 231, 58, 0.7);
+    font-weight: bold;
+}
