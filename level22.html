@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Level 2</h1>
+        <h1 id="level-title">Level 2.2</h1>
         <div class="riddle">
             <p id="riddle-text">I slink and prowl, my eyes glow bright, I’m her companion in the night. What am I?</p>
             <input type="text" id="answer" placeholder="Type your answer here">
@@ -21,5 +21,11 @@
         <button onclick="goBack()">Back to Worlds</button>
     </div>
     <script src="script.js"></script>
+    <script>
+        // Load the riddle for this specific level
+        window.onload = function() {
+            loadRiddle("level2.2"); // Ensure this matches the level identifier
+        };
+    </script>
 </body>
 </html>

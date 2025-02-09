@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level 4 - The Curse of Ms.Riddler</title>
+    <title>Level 1.4 - The Curse of Ms. Riddler</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="container">
-        <h1>Level 4</h1>
+        <h1 id="level-title">Level 4</h1>
         <div class="riddle">
             <p id="riddle-text">I brew potions and cast spells with my wand. What am I?</p>
             <input type="text" id="answer" placeholder="Type your answer here">
             <button id="check">Check Answer</button>
-            <button id="hint" onclick="showHint()">Hint</button>
-            <p class="message hidden"></p>
+            <button id="hint">Hint</button>
             <p class="revealed-message hidden"></p>
+            <p class="message hidden"></p> <!-- This is where the message will be displayed -->
         </div>
-        <button id="next-level" class="hidden" onclick="goToWorld2()">Go to World 2</button>
+        <button id="next-level" class="hidden" onclick="nextLevel()">Next Level</button>
         <button onclick="goBack()">Back to Worlds</button>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
