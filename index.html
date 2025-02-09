@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curse of Ms.Riddler - Home</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('https://m.media-amazon.com/images/I/81vtnXCyb8L._AC_UF1000,1000_QL80_.jpg') no-repeat center center/cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            color: #701fbc;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 24px;
+            color: white;
+            background-color: #ff9900;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Curse of Ms.Riddler</div>
+        <button class="button" onclick="startGame()">Play</button>
+    </div>
+    
+    <script>
+        function startGame() {
+            alert("Game Starting...");
+        }
+    </script>
+</body>
+</html>
