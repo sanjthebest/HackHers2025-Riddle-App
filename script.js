@@ -100,7 +100,7 @@ function goToWorld2() {
 }
 
 function goBack() {
-    window.location.href = 'worlds.html'; // Redirect to the worlds page
+    window.location.href = 'index.html'; // Redirect to the worlds page
 }
 
 // Load the riddle when the page is loaded

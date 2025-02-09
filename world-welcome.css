@@ -1,0 +1,131 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Ensures text is visible */
+    font-family: fantasy;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('cursed-cauldron.jpg') no-repeat center center/cover;
+    opacity: 0.7; /* Adjust this value to change transparency */
+    z-index: -1; /* Keeps it behind all content */
+}
+
+
+.title{
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(249, 204, 233, 0.7);
+    font-weight: bold;
+    color: rgb(107, 0, 18);
+    position: relative;
+    top: 100px;
+}
+
+h3{
+    color: white;
+    text-shadow: 0 0 10px navy;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+
+.level{
+    background-image: linear-gradient(rgb(247, 222, 226), rgb(247, 222, 226), rgb(253, 172, 186));
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(107, 0, 18);
+    height: 2em;
+    font-size: 1.5em;
+}
+
+.level:hover{
+    transform: scale(1.15); /* Slightly smaller increase for a smoother effect */
+    box-shadow: 0 0 25px rgba(234, 231, 58, 0.7);
+    font-weight: bold;
+}
+
+.button{
+    background-image:linear-gradient(rgb(195, 248, 195),rgb(114, 198, 114));    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    height: 3em;
+    font-size: 2.5em;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button:hover{
+    transform: scale(1.15); /* Slightly smaller increase for a smoother effect */
+    box-shadow: 0 0 25px rgba(234, 231, 58, 0.7);
+    font-weight: bold;
+}
+
+#next-level{
+    background-image:linear-gradient(rgb(195, 248, 195),rgb(114, 198, 114));    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(234, 231, 58, 0.7);
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    height: 3em;
+    font-size: 2.5em;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 30px;
+}
+
+#next-level:hover{
+    transform: scale(1.15); /* Slightly smaller increase for a smoother effect */
+    box-shadow: 0 0 25px rgba(234, 231, 58, 0.7);
+    font-weight: bold;
+}
+
+img{
+    height: 300px;
+}
+
+
+.riddle {
+    width: 60%; /* Adjust width */
+    max-width: 400px;
+    max-height: 800px;
+    padding: 40px 60px;
+    background: url('scroll.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 20px;
+    color: #4b2c20; /* Dark brown for old-paper effect */
+    line-height: 1.6;
+    border-radius: 15px; /* Optional for soft edges */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 20px auto; /* Centers it */
+}
+
+.riddle-text{
+    font-size: 15px;
+}
