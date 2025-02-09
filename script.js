@@ -76,7 +76,7 @@ function goToWorld2() {
 }
 
 function goBack() {
-    window.location.href = 'index.html'; // Redirect to the worlds page
+    window.location.href = 'worlds.html'; // Redirect to the worlds page
 }
 
 window.onload = function() {
