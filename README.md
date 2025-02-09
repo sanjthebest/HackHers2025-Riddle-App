@@ -9,12 +9,19 @@ Riddle game designed with the following rules:
 7. Once the player reaches World 4, Level 4, a success display message pops up and redirects the player to the map, where it shows all 4 worlds being completed. 
 
 **WEB APP DESCRIPTION**
-LANGUAGES USED
-HTML, CSS used for the front end 
-Javascript for the backend 
+LANGUAGES USED:
+1. HTML, CSS used for the front end 
+2. Javascript for the backend
 
+FILE DESCRIPTIONS:
+1. index2.html: frontend for the website
+2. level11,12,13,14...etc.html: code for each of the levels
+3. Style.css: improvements to the visuals in the website
+4. worlds.html: frontend for the world selection page
+5. world2,3,4.htmls: frontend for each of the worlds
+   
 **MOBILE APP DESCRIPTION**
-DEPENDENCIES AND LIBRARIES USED
+DEPENDENCIES AND LIBRARIES USED:
 1. Node.js (Command to install: brew install node)
 2. Node Package Manager (Command to install: npm install)
 3. React Native CLI used for Native React (Command to install: npm install -g react-native-cli)
