@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background: #141f22;
+    height: 35px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-align: center; 
+    color: #e8e9c4; 
+    font-size: 20px; 
+    padding-left: 660px;
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none; /* This removes the underline */
+}
+
+/* Hero section */
+.hero {
+    margin: 0;
+    padding: 0.5rem;
+    height: 100vh;
+    background-image: url('hero-page.gif');
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes the GIF cover the entire background */
+    background-position: center;
+    background-attachment: scroll; /* This makes the background stay in place when you scroll */
+}
+
+.worlds {
+    padding: 6rem calc((100vw - 1100px) / 2);
+    text-align: center;
+}
+
+.worlds h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.world_desc {
+    margin-bottom: 3rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    padding: 1rem;
+}
+
+.world_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.world_card {
+    padding: 2rem;
+    min-height: 450px;
+    width: 325px;
+    background: #1f3123;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
