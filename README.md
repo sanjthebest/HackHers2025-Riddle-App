@@ -36,3 +36,7 @@ File Descriptions:
 2. Map.js displays the map with the different worlds
 3. Level.js are the individual levels from the game
 4. Home.js is the home page, and what the user sees when the app is opened
+
+Next Steps:
+1. Web App: Add more worlds and levels in
+2. Mobile App: Introduce a better Front end and UI
