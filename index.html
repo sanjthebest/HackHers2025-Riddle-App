@@ -14,14 +14,19 @@
             margin: 0;
             background: url('https://m.media-amazon.com/images/I/81vtnXCyb8L._AC_UF1000,1000_QL80_.jpg') no-repeat center center/cover;
             font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
         }
         .container {
             text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .title {
             font-size: 48px;
             font-weight: bold;
-            color: #701fbc;
+            color: #e6e208;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
         .button {
@@ -38,6 +43,26 @@
         .button:hover {
             background-color: #ff6600;
         }
+        .next-page {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -45,10 +70,17 @@
         <div class="title">Curse of Ms.Riddler</div>
         <button class="button" onclick="startGame()">Play</button>
     </div>
-    
+
+    <div class="next-page" id="nextPage">
+        <div class="box">World 1</div>
+        <div class="box">World 2</div>
+        <div class="box">World 3</div>
+        <div class="box">World 4</div>
+    </div>
+
     <script>
-        function startGame() {
-            alert("Game Starting...");
+        function scrollToNextPage() {
+            document.getElementById("nextPage").scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 </body>
