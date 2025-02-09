@@ -1,4 +1,4 @@
-# HackHers2025-Train-Game
+# HackHers2025-Riddle-Game-App
 Dependencies and Libraries used:
 1. Node.js (Command to install: brew install node)
 2. Node Package Manager (Command to install: npm install)
